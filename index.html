@@ -1,14 +1,55 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script="js/jquery-3.2.1.js"></script>
-    <script="js/scripts.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Flashcards</title>
   </head>
   <body>
+    <div class="container">
+      <h1>JavaScript Flashcards</h1>
 
+      <div class="card">
+        <div class="card-header bg-primary text-white"><h4>JavaScript (JS)</h4></div>
+        <div class="card-body">
+          <div id="js-def-hidden">
+            <p class="js-clickable card-text">Click to view/hide the definition</p>
+            </div>
+
+          <div id="js-def-showing">
+            <p class="clickable card-def">An object-oriented computer programming language commonly used to create interactive effects within web browsers.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header bg-primary text-white"><h4>Operators</h4></div>
+        <div class="card-body">
+          <div id="op-def-hidden">
+            <p class="op-clickable card-text">Click to view/hide the definition</p>
+          </div>
+
+          <div id="op-def-showing">
+            <p class="clickable card-def">JavaScript operators are used to assign values, compare values, perform arithmetic operations, and more.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header bg-primary text-white"><h4>Variables</h4></div>
+        <div class="card-body">
+          <div id="var-def-hidden">
+            <p class="var-clickable card-text">Click to view/hide the definition</p>
+          </div>
+
+          <div id="var-def-showing">
+            <p class="clickable card-def">JavaScript variables are containers for storing data values.</p>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- Closes container -->
   </body>
 </html>

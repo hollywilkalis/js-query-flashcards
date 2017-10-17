@@ -1,0 +1,49 @@
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+.card {
+  height: 10rem;
+}
+
+.card-body {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.card-def {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.card-text {
+  margin-top: 2px;
+}
+
+#js-def-hidden {
+  display: block;
+}
+
+#js-def-showing {
+  display: none;
+}
+
+#op-def-hidden {
+  display: block;
+}
+
+#op-def-showing {
+  display: none;
+}
+
+#var-def-hidden {
+  display: block;
+}
+
+#var-def-showing {
+  display: none;
+}
